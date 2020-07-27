@@ -1,0 +1,1 @@
+When the controller function is executed, it gets the special $scope object as a parameter. When the controller function is executed, it gets the special $scope object as a parameter. 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="errroMessage"></p>;
+    <script>
+     
+      try {
+        // var result = Sum(10, 20);
+        throw {
+            number:101,
+            message: "Error Occured"
+        }
+      } 
+      catch (err) {
+        document.getElementById("errroMessage").innerHTML = err.message;
+        console.log(err)
+      }
+      finally{
+        document.getElementById("errroMessage").innerHTML += " finnaly executed"
+      }
+    </script>
+  </body>
+</html>

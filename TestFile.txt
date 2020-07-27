@@ -1,0 +1,1 @@
+Modules are a way of organizing JavaScript applications into self-contained components that can be combined in new and interesting ways. Angular relies on this technique for code isolation and requires that your application follows it before you can create a filter. There are only two things that you need to do to turn your app into a module:
